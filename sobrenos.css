@@ -1,0 +1,173 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2A2D34;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇÇALHO */
+header{
+    padding: 15px 8%;
+    background-color: #2A2D34; 
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 50px;
+    width: 100px;
+}
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: right;
+    margin: 0;
+    line-height: 1.2em;
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    margin-right: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    letter-spacing: 1.22px; 
+}
+
+header a:hover{
+    color:aquamarine;    
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* Seção de Boas-vindas */
+.welcome-gallery {
+    height: 500px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.welcome-gallery .photo-section img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-gallery .main-section-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.welcome-gallery .main-section-title h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+
+.welcome-gallery .main-section-title p {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300px;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+.welcome-gallery .photo-gradient {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+/* RODAPE */
+footer {
+    background-color: #2A2D34;
+    padding-top: 20px;
+    text-align: center;
+    overflow-wrap: break-word;    
+ }
+
+ .botoes{
+  margin-right: 700px;
+  padding-left: 45px;
+ }
+
+ .contato {
+  width: 100%;
+  margin-left: -300px;
+ }
+
+ .horario {
+  width: 100%;
+  margin-left: 400px;
+ }
+
+
+    footer div {
+      text-align: center;
+      padding-right: 8px;
+      margin-bottom: 12px; 
+      display: flex;
+      
+    
+    }
+      footer div p {
+        color: #FFF;
+        font-weight: normal;
+        font-size: 14px; }
+    footer .footer-section-title {
+      color: #FFF;
+      font-weight: bold;
+      font-size: 16px; }
+
+    footer .copyright {
+      height: 44px;
+      line-height: 44px;
+      color: #FFF;
+      text-align: center;
+      margin-bottom: 0; }
+
+     

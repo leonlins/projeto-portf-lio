@@ -1,0 +1,165 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇÇALHO */
+header {
+    padding: 15px 8%;
+    background-color: #2A2D34; 
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+    width: 100px;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: right;
+    margin: 0;
+    line-height: 1.2em;
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    margin-right: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    letter-spacing: 1.22px; 
+}
+
+header a:hover {
+    color:aquamarine;    
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* CONTATO */
+section.formulario{
+    padding: 80px 4%
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 8px;
+        color: #424143;
+        text-transform: uppercase; 
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input{
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+    width: 100%;
+    padding: 40px 15px;
+    border-radius: 5px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+}
+
+form .btn-enviar input{
+    background-color: #9D9D9D;
+    cursor: pointer;    
+    color: #FFF;
+}
+
+form .btn-enviar input:hover{
+    background-color: #424143;
+}
+
+/* RODAPE */
+footer {
+    background-color: #2A2D34;
+    padding-top: 20px;
+    text-align: center;
+    overflow-wrap: break-word;    
+ }
+
+ .botoes{
+  margin-right: 700px;
+  padding-left: 45px;
+ }
+
+ .contato {
+  width: 100%;
+  margin-left: -300px;
+ }
+
+ .horario {
+  width: 100%;
+  margin-left: 400px;
+ }
+
+
+    footer div {
+      text-align: center;
+      padding-right: 8px;
+      margin-bottom: 12px; 
+      display: flex;
+      
+    
+    }
+      footer div p {
+        color: #FFF;
+        font-weight: normal;
+        font-size: 14px; }
+    footer .footer-section-title {
+      color: #FFF;
+      font-weight: bold;
+      font-size: 16px; }
+
+    footer .copyright {
+      height: 44px;
+      line-height: 44px;
+      color: #FFF;
+      text-align: center;
+      margin-bottom: 0; }
+
+     
